@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    background-color: #f0f0f0; /* Set your special and aesthetic background color */
+    background-image: url('your-background-image.jpg'); /* Set your special and aesthetic background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for better text readability */
+  }
+  
+  .content {
+    z-index: 1;
+    text-align: center;
+    color: white; /* Text color */
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .chronometer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #display {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff; /* Chronometer display text color */
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  #records {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .record-item {
+    margin-bottom: 5px;
+  }
+  
